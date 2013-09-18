@@ -1,4 +1,4 @@
-;;; twee-mode.el --- Enabling Twee Mode for twine files.
+;;; gcd-twee.el --- Enabling Twee Mode for twine files.
 ;;
 ;; Copyright © 2013 Gaelan D'costa
 ;;
@@ -18,4 +18,6 @@
 (autoload 'twee-mode "twee.el" "Mode for editing Twee files." t)
 (add-to-list 'auto-mode-alist '("\\.tw\\'" . twee-mode))
 (add-hook 'twee-mode-hook 'turn-on-font-lock)
-;;; twee-mode.el ends here
+
+(provide 'gcd-twee)
+;;; gcd-twee.el ends here

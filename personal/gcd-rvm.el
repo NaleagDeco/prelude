@@ -1,4 +1,4 @@
-;;; rvm.el --- Emacs Prelude (Personal): Adding RVM support to Prelude
+;;; gcd-rvm.el --- Emacs Prelude (Personal): Adding RVM support to Prelude
 ;;
 ;; Copyright © 2013-2014 Gaelan D'costa
 ;;
@@ -26,4 +26,6 @@
      (setq personal-rvm-hook 'personal-rvm-defaults)
      (add-hook 'ruby-mode-hook (lambda ()
                                  (run-hooks 'personal-rvm-hook)))))
-;;; rvm.el ends here
+
+(provide 'gcd-rvm)
+;;; gcd-rvm.el ends here

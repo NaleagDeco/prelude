@@ -1,4 +1,4 @@
-;;; solarized.el --- Emacs Prelude (Personal): Solarized on start
+;;; gcd-solarized.el --- Emacs Prelude (Personal): Solarized on start
 ;;
 ;; Copyright © 2013 Gaelan D'costa
 ;;
@@ -17,4 +17,5 @@
 (prelude-require-package 'solarized-theme)
 (load-theme 'solarized-dark t)
 
-;;; solarized.el ends here
+(provide 'gcd-solarized)
+;;; gcd-solarized.el ends here

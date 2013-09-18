@@ -1,4 +1,4 @@
-;;; smartparens-paredit.el --- Make SmartParens act more like Paredit
+;;; gcd-sp-paredit.el --- Make SmartParens act more like Paredit
 ;;
 ;; Copyright © 2013 Gaelan D'costa
 ;;
@@ -15,5 +15,7 @@
 ;; I prefer some of the paredit behaviour, so let's keep that.
 
 ;;; Code:
-(smartparens-strict-mode t)
-;;; smartparens-paredit.el ends here
+(setq-default smartparens-strict-mode t)
+
+(provide 'gcd-sp-paredit)
+;;; gcd-sp-paredit.el ends here
