@@ -21,7 +21,7 @@
   '(progn
      (defun personal-rbenv-defaults ()
        (prelude-require-package 'rbenv)
-       (rbenv-use-global))
+       (global-rbenv-mode))
 
      (setq personal-rbenv-hook 'personal-rbenv-defaults)
      (add-hook 'ruby-mode-hook (lambda ()

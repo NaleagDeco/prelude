@@ -17,5 +17,11 @@
 ;;; Code:
 (prelude-require-package 'dash-at-point)
 
+(autoload 'dash-at-point "dash-at-point"
+  "Search the word at point with Dash." t nil)
+
+(global-set-key "\C-c \C-k d" 'dash-at-point)
+(global-set-key "\C-c \C-k e" 'dash-at-point-with-docset)
+
 (provide 'gcd-dash-at-point)
 ;;; gcd-dash-at-point.el ends here
