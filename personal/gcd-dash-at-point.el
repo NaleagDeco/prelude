@@ -20,8 +20,8 @@
 (autoload 'dash-at-point "dash-at-point"
   "Search the word at point with Dash." t nil)
 
-(global-set-key "\C-c \C-k d" 'dash-at-point)
-(global-set-key "\C-c \C-k e" 'dash-at-point-with-docset)
+(global-set-key "\C-c\C-kd" 'dash-at-point)
+(global-set-key "\C-c\C-ke" 'dash-at-point-with-docset)
 
 (provide 'gcd-dash-at-point)
 ;;; gcd-dash-at-point.el ends here
